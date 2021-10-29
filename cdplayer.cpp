@@ -22,7 +22,7 @@ void CdPlayer::eject() {
 void CdPlayer::play(string title) {
 	this->title = title;
 	currentTrack = 0;
-	cout << description << " playing \"" << title << "\"" endl;
+	cout << description << " playing \"" << title << "\"" << endl;
 }
 
 void CdPlayer::play(int track) {
