@@ -5,7 +5,9 @@
 #include <iostream>
 #include "amplifier.h"
 
-class tuner
+using namespace std;
+
+class Tuner
 {
 private:
 	string description;
